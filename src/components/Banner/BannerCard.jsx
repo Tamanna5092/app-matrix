@@ -7,7 +7,7 @@ export default function BannerCard() {
         <h2 className="text-3xl md:text-5xl text-center font-semibold">
           Trusted by Millions, Built for You
         </h2>
-        <div className="md:max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="md:max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
           {/* card 1 */}
           <div className="card">
             <div className="card-body inter text-center">
