@@ -7,7 +7,7 @@ export default function Banner() {
   return (
     <div className="max-w-7xl mx-auto flex flex-col justify-center text-center pt-10 px-2 md:px-0">
       <div className="md:max-w-4xl mx-auto">
-        <h1 className="text-3xl md:text-5xl font-bold inter">
+        <h1 className="text-4xl md:text-7xl font-black inter">
           We Build <br /> <span className="text-[#9F62F2]">Productive</span>{" "}
           Apps
         </h1>
