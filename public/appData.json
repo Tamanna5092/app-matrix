@@ -1,0 +1,364 @@
+[
+  {
+    "image": "https://cdn.simpleicons.org/whatsapp",
+    "title": "ChatFlow",
+    "companyName": "AppMatrix",
+    "id": 1,
+    "description": "ChatFlow is a modern messaging application designed with AI-powered smart replies, real-time chat synchronization, media sharing, and end-to-end encryption to ensure privacy and fast communication.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 530 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/spotify",
+    "title": "FitTrack",
+    "companyName": "Healthify",
+    "id": 2,
+    "description": "FitTrack helps users monitor daily fitness activities including steps, calories burned, heart rate tracking, and personalized workout plans to maintain a healthy lifestyle efficiently.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/ubereats",
+    "title": "FoodieGo",
+    "companyName": "QuickBite",
+    "id": 3,
+    "description": "FoodieGo allows users to order food instantly from nearby restaurants with live order tracking, multiple payment methods, exclusive discounts, and a user-friendly interface.",
+    "size": 80,
+    "reviews": 2000,
+    "ratingAvg": 4.6,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1050 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/khanacademy",
+    "title": "EduLearn",
+    "companyName": "SmartEdu",
+    "id": 4,
+    "description": "EduLearn provides interactive courses, quizzes, video lessons, and personalized learning paths for students to improve their skills across multiple subjects anytime, anywhere.",
+    "size": 120,
+    "reviews": 1500,
+    "ratingAvg": 4.7,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 820 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/googlemaps",
+    "title": "TravelMate",
+    "companyName": "GlobeTech",
+    "id": 5,
+    "description": "TravelMate helps users plan trips, explore destinations, get real-time navigation, discover nearby attractions, and create travel itineraries with ease and convenience.",
+    "size": 95,
+    "reviews": 870,
+    "ratingAvg": 4.2,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+
+  {
+    "image": "https://cdn.simpleicons.org/notion",
+    "title": "NoteMaster",
+    "companyName": "Productive Inc.",
+    "id": 6,
+    "description": "NoteMaster is a productivity app that allows users to take notes, manage tasks, organize projects, and collaborate with teams using a clean and efficient interface.",
+    "size": 30,
+    "reviews": 640,
+    "ratingAvg": 4.4,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 230 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/spotify",
+    "title": "MusicWave",
+    "companyName": "SoundLab",
+    "id": 7,
+    "description": "MusicWave is a powerful music streaming app that provides high-quality audio, curated playlists, offline listening, and personalized recommendations based on user preferences.",
+    "size": 70,
+    "reviews": 3000,
+    "ratingAvg": 4.8,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1950 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "title": "ShopEasy",
+    "companyName": "BuyNow",
+    "id": 8,
+    "description": "ShopEasy offers a seamless online shopping experience with thousands of products, secure payment gateways, fast delivery options, and exciting daily deals.",
+    "size": 110,
+    "reviews": 2100,
+    "ratingAvg": 4.5,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+    "title": "WeatherNow",
+    "companyName": "SkyTech",
+    "id": 9,
+    "description": "WeatherNow delivers accurate real-time weather updates, forecasts, severe weather alerts, and location-based weather insights for better daily planning.",
+    "size": 25,
+    "reviews": 540,
+    "ratingAvg": 4.1,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/youtube",
+    "title": "GameZone",
+    "companyName": "FunPlay",
+    "id": 10,
+    "description": "GameZone offers a collection of trending mobile games with smooth performance, multiplayer options, daily rewards, and exciting challenges for gamers of all levels.",
+    "size": 150,
+    "reviews": 4000,
+    "ratingAvg": 4.6,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2250 }
+    ]
+  },
+
+  {
+    "image": "https://cdn.simpleicons.org/netflix",
+    "title": "StreamFlix",
+    "companyName": "MediaHub",
+    "id": 11,
+    "description": "StreamFlix provides unlimited access to movies, TV shows, and exclusive content with HD streaming, offline downloads, and personalized recommendations.",
+    "size": 140,
+    "reviews": 5000,
+    "ratingAvg": 4.7,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2900 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/facebook",
+    "title": "SocialBuzz",
+    "companyName": "Connectify",
+    "id": 12,
+    "description": "SocialBuzz helps users connect with friends, share updates, join communities, and engage with content through a dynamic and interactive social platform.",
+    "size": 90,
+    "reviews": 2500,
+    "ratingAvg": 4.3,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1090 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg",
+    "title": "QuickTweet",
+    "companyName": "BirdTech",
+    "id": 13,
+    "description": "QuickTweet enables users to share short updates, follow trends, engage in discussions, and stay informed with real-time global conversations.",
+    "size": 50,
+    "reviews": 800,
+    "ratingAvg": 4.2,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/instagram",
+    "title": "InstaSnap",
+    "companyName": "PhotoWorld",
+    "id": 14,
+    "description": "InstaSnap allows users to capture photos, apply filters, share stories, and connect with followers through visually engaging content and reels.",
+    "size": 85,
+    "reviews": 3100,
+    "ratingAvg": 4.6,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1360 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/dropbox",
+    "title": "CloudBox",
+    "companyName": "DataSafe",
+    "id": 15,
+    "description": "CloudBox provides secure cloud storage with file sharing, automatic backup, and easy access to files from any device with strong data protection.",
+    "size": 75,
+    "reviews": 900,
+    "ratingAvg": 4.4,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 370 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg",
+    "title": "TeamChat",
+    "companyName": "WorkFlow",
+    "id": 16,
+    "description": "TeamChat is a collaboration tool that allows teams to communicate, share files, manage projects, and improve productivity through organized channels.",
+    "size": 65,
+    "reviews": 1100,
+    "ratingAvg": 4.5,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/zoom",
+    "title": "MeetNow",
+    "companyName": "ConnectPro",
+    "id": 17,
+    "description": "MeetNow provides high-quality video conferencing, webinars, screen sharing, and virtual meeting solutions for both personal and professional use.",
+    "size": 100,
+    "reviews": 2000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 880 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/paypal",
+    "title": "PayQuick",
+    "companyName": "FinTechX",
+    "id": 18,
+    "description": "PayQuick enables secure online payments, money transfers, bill payments, and financial tracking with fast processing and strong encryption.",
+    "size": 55,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/trello",
+    "title": "TaskHero",
+    "companyName": "Productive Inc.",
+    "id": 19,
+    "description": "TaskHero helps users manage tasks, set priorities, track progress, and boost productivity through an intuitive and easy-to-use interface.",
+    "size": 28,
+    "reviews": 510,
+    "ratingAvg": 4.5,
+    "downloads": 160000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 190 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
+    "title": "PhotoEdit Pro",
+    "companyName": "PixelLab",
+    "id": 20,
+    "description": "PhotoEdit Pro offers advanced photo editing tools, filters, layers, and professional-grade features to enhance images and create stunning visuals.",
+    "size": 85,
+    "reviews": 1700,
+    "ratingAvg": 4.7,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 880 }
+    ]
+  }
+]

@@ -11,7 +11,7 @@ export default function Banner() {
           We Build <br /> <span className="text-[#9F62F2]">Productive</span>{" "}
           Apps
         </h1>
-        <p className="text-[#627382] mt-6 mb-10">
+        <p className="text-[#627382] inter text-xl mt-6 mb-10">
           At AppMatrix, we craft innovative apps designed to make everyday life
           simpler, smarter, and more exciting. Our goal is to turn your ideas
           into digital experiences that truly make an impact.

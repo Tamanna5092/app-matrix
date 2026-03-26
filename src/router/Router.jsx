@@ -6,7 +6,9 @@ const Router = createBrowserRouter([
   {
     path: "/",
     Component: App,
-    children: [{ index: true, Component: Home }],
+    children: [
+      { index: true, loader: ()=> fetch("/appData.json"), Component: Home },
+    ],
   },
 ]);
 
