@@ -1,13 +1,15 @@
 import { createBrowserRouter } from "react-router";
-import App from "../App";
+import Root from "../Root";
 import Home from "../components/Home/Home";
+import AllApps from "../Pages/AllApps/AllApps";
 
 const Router = createBrowserRouter([
   {
     path: "/",
-    Component: App,
+    Component: Root,
     children: [
       { index: true, loader: ()=> fetch("/appData.json"), Component: Home },
+      { path: 'allApps', loader: ()=> fetch("/appData.json"), Component: AllApps}
     ],
   },
 ]);

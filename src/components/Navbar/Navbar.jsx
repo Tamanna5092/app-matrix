@@ -1,18 +1,19 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router";
 
 export default function Navbar() {
   const navlinks = (
     <>
       <li className="hover:text-[#9F62F2] hover:underline underline-[#9F62F2] font-medium">
-        <a className="">Home</a>
+        <Link to={'/'} className="">Home</Link>
       </li>
       <li className="hover:text-[#9F62F2] hover:underline underline-[#9F62F2] font-medium">
-        <a>Apps</a>
+        <Link to={"/allApps"}>Apps</Link>
       </li>
       <li className="hover:text-[#9F62F2] hover:underline underline-[#9F62F2] font-medium">
-        <a>Installation</a>
+        <Link to={'/installation'}>Installation</Link>
       </li>
     </>
   );

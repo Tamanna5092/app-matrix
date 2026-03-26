@@ -1,17 +1,13 @@
 import React from "react";
-import { FaRegStar, FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 
-export default function App({ app }) {
+export default function AppCard({ app }) {
   const { title, image, ratingAvg, downloads } = app;
   return (
     <div className="card bg-white p-4">
       <figure className="bg-[#D9D9D9]">
-        <img
-          src={image}
-          alt="image"
-          className="w-64 h-64 rounded-lg p-6"
-        />
+        <img src={image} alt="image" className="w-64 h-64 rounded-lg p-6" />
       </figure>
       <div className=" ">
         <h2 className="text-xl font-medium inter my-4">{title}</h2>

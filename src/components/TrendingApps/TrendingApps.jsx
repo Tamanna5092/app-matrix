@@ -1,5 +1,5 @@
-import React from "react";
-import App from "../App/App";
+import { Link } from "react-router";
+import AppCard from "../AppCard/AppCard";
 
 export default function TrendingApps({ appData }) {
   return (
@@ -12,8 +12,16 @@ export default function TrendingApps({ appData }) {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         {appData.slice(0, 8).map((app) => (
-          <App key={app.id} app={app}></App>
+          <AppCard key={app.id} app={app}></AppCard>
         ))}
+      </div>
+      <div className="flex justify-center mt-10">
+        <Link
+          to={"/allApps"}
+          className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold"
+        >
+          Show All Apps
+        </Link>
       </div>
     </div>
   );

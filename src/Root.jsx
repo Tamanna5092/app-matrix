@@ -2,7 +2,7 @@ import { Outlet } from "react-router";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
-function App() {
+function Root() {
   return (
     <>
       <Navbar></Navbar>
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default Root;
