@@ -8,25 +8,32 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-export default function Rechart({ ratings = [] }) {
+export default function Rechart({ ratings }) {
+  const singleRating = ratings.map((rating) => {
+    return {
+      name: rating.name,
+      count: rating.count,
+    };
+  });
+
+  console.log(singleRating);
   return (
     <div style={{ width: "100%", height: 300 }}>
       <h3>Ratings</h3>
 
       <ResponsiveContainer>
         <BarChart
-          data={ratings}
+          data={singleRating}
           layout="vertical"
           margin={{ top: 10, right: 20, left: 20, bottom: 10 }}
         >
           <XAxis type="number" />
-          <YAxis type="count" />
+          <YAxis type="category" dataKey="name" />
           <Tooltip />
           <Bar
-            dataKey="value"
+            dataKey="count"
             fill="#f97316"
-            radius={[0, 10, 10, 0]}
-            barSize={12}
+            barSize={30}
           />
         </BarChart>
       </ResponsiveContainer>

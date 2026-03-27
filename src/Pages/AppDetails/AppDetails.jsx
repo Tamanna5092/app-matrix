@@ -23,8 +23,8 @@ export default function AppDetails() {
   return (
     <div className="max-w-7xl mx-auto py-10 px-2 md:px-0">
       <div className="flex flex-col gap-6 md:flex-row">
-        <div>
-          <img className="w-80" src={image} alt="" />
+        <div className="flex justify-center items-center">
+          <img className="w-80 object-cover object-center" src={image} alt="" />
         </div>
         <div className="grow">
           <h2 className="inter text-[#001931] text-3xl font-bold">{title}</h2>
