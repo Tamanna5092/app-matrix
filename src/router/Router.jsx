@@ -3,11 +3,13 @@ import Root from "../Root";
 import Home from "../components/Home/Home";
 import AllApps from "../Pages/AllApps/AllApps";
 import AppDetails from "../Pages/AppDetails/AppDetails";
+import Error404 from "../Pages/Error404/Error404";
 
 const Router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
+    errorElement: <Error404></Error404>,
     children: [
       { index: true, loader: () => fetch("/appData.json"), Component: Home },
       {
