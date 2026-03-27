@@ -1,11 +1,12 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
+import { Link } from "react-router";
 
 export default function AppCard({ app }) {
-  const { title, image, ratingAvg, downloads } = app;
+  const { id, title, image, ratingAvg, downloads } = app;
   return (
-    <div className="card bg-white p-4">
+    <Link to={`/appDetails/${id}`} className="card bg-white p-4">
       <figure className="bg-[#D9D9D9]">
         <img src={image} alt="image" className="w-64 h-64 rounded-lg p-6" />
       </figure>
@@ -26,6 +27,6 @@ export default function AppCard({ app }) {
           {ratingAvg}
         </button>
       </div>
-    </div>
+    </Link>
   );
 }
