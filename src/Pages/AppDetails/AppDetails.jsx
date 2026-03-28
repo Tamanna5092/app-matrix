@@ -4,6 +4,7 @@ import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { AiFillLike } from "react-icons/ai";
 import Rechart from "./Rechart/Rechart";
+import { addToStoredApps } from "../../utilities";
 
 export default function AppDetails() {
   const { id } = useParams();
@@ -20,11 +21,21 @@ export default function AppDetails() {
     size,
     description,
   } = findData;
+
+  const handleInstall = (id) => {
+    console.log("button click", id);
+    addToStoredApps(id);
+  };
+
   return (
     <div className="max-w-7xl mx-auto py-10 px-2 md:px-0">
       <div className="flex flex-col gap-6 md:flex-row">
         <div className="flex justify-center items-center">
-          <img className="w-80 object-cover object-center" src={image} alt="" />
+          <img
+            className="w-80 object-cover object-center bg-white p-6"
+            src={image}
+            alt=""
+          />
         </div>
         <div className="grow">
           <h2 className="inter text-[#001931] text-3xl font-bold">{title}</h2>
@@ -55,7 +66,10 @@ export default function AppDetails() {
               </p>
             </div>
           </div>
-          <button className="bg-[#00D390] text-white text-xl font-semibold px-5 py-3 mt-6 cursor-pointer">
+          <button
+            onClick={() => handleInstall(id)}
+            className="bg-[#00D390] text-white text-xl font-semibold rounded px-5 py-3 mt-6 cursor-pointer"
+          >
             Install Now ({size} MB)
           </button>
         </div>

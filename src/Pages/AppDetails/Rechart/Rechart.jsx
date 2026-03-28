@@ -16,7 +16,6 @@ export default function Rechart({ ratings }) {
     };
   });
 
-  console.log(singleRating);
   return (
     <div style={{ width: "100%", height: 300 }}>
       <h3>Ratings</h3>
