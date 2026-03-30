@@ -29,13 +29,13 @@ export default function Installation() {
           ({install.length}) Apps Found
         </h3>
         <details className="dropdown">
-          <summary className="btn m-1">open or close</summary>
-          <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+          <summary className="btn m-1">Sort by</summary>
+          <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-32 p-2 shadow-sm">
             <li>
-              <a>Item 1</a>
+              <a>High-Low</a>
             </li>
             <li>
-              <a>Item 2</a>
+              <a>Low-High</a>
             </li>
           </ul>
         </details>

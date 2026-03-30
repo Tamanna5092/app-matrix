@@ -77,7 +77,7 @@ export default function Navbar() {
           </div>
           <div className="flex items-center">
             <img className="w-10 h-10" src={logo} alt="logo" />
-            <a className="text-lg md:text-xl inter font-bold">AppMatrix</a>
+            <Link to={'/'} className="text-lg md:text-xl inter font-bold">AppMatrix</Link>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">

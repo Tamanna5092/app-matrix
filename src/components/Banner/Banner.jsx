@@ -17,14 +17,14 @@ export default function Banner() {
           into digital experiences that truly make an impact.
         </p>
         <div className="flex justify-center items-center gap-4 mb-10">
-          <button className="flex gap-2 justify-center items-center border border-[#627382] font-semibold inter px-6 py-3">
+          <a href="https://play.google.com/store/games?hl=en" className="flex gap-2 justify-center items-center border border-[#627382] font-semibold inter px-6 py-3">
             <img className="w-5 h-5" src={icon1} alt="Google Play" />
             Google Play
-          </button>
-          <button className="flex gap-2 justify-center items-center border border-[#627382] font-semibold inter px-6 py-3">
+          </a>
+          <a href="https://www.apple.com/app-store" className="flex gap-2 justify-center items-center border border-[#627382] font-semibold inter px-6 py-3">
             <img className="w-5 h-5" src={icon2} alt="App Store" />
             App Store
-          </button>
+          </a>
         </div>
       </div>
       <div className="flex justify-center">
