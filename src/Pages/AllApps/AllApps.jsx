@@ -16,7 +16,6 @@ export default function AllApps() {
   const filteredApps = appData.filter((app) =>
     app?.title?.toLowerCase().includes(search.toLowerCase()),
   );
-  console.log(filteredApps);
 
   return (
     <div className="max-w-7xl mx-auto py-10 px-2 md:px-0">

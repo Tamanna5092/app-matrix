@@ -1,19 +1,48 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import { FaGithub } from "react-icons/fa";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 
 export default function Navbar() {
   const navlinks = (
     <>
-      <li className="hover:text-[#9F62F2] hover:underline underline-[#9F62F2] font-medium">
-        <Link to={'/'} className="">Home</Link>
+      <li className="font-medium">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive
+              ? "text-[#9F62F2] underline underline-[#9F62F2]"
+              : "hover:text-[#9F62F2]"
+          }
+        >
+          {" "}
+          Home{" "}
+        </NavLink>
       </li>
-      <li className="hover:text-[#9F62F2] hover:underline underline-[#9F62F2] font-medium">
-        <Link to={"/allApps"}>Apps</Link>
+      <li className="font-medium">
+        <NavLink
+          to="/allApps"
+          className={({ isActive }) =>
+            isActive
+              ? "text-[#9F62F2] underline underline-[#9F62F2]"
+              : "hover:text-[#9F62F2]"
+          }
+        >
+          {" "}
+          Apps
+        </NavLink>
       </li>
-      <li className="hover:text-[#9F62F2] hover:underline underline-[#9F62F2] font-medium">
-        <Link to={'/installation'}>Installation</Link>
+      <li className="font-medium">
+        <NavLink
+          to="/installation"
+          className={({ isActive }) =>
+            isActive
+              ? "text-[#9F62F2] underline underline-[#9F62F2]"
+              : "hover:text-[#9F62F2]"
+          }
+        >
+          Installation
+        </NavLink>
       </li>
     </>
   );
