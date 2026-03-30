@@ -22,8 +22,7 @@ export default function AppDetails() {
     description,
   } = findData;
 
-  const handleInstall = (id) => {
-    console.log("button click", id);
+  const handleInstall = (id) => { 
     addToStoredApps(id);
   };
 

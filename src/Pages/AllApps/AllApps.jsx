@@ -1,11 +1,26 @@
 import { useLoaderData } from "react-router";
 import AppCard from "../../components/AppCard/AppCard";
+import { useState } from "react";
 
 export default function AllApps() {
   const appData = useLoaderData();
+  const [search, setSearch] = useState("");
+  console.log(appData);
+
+  const handleSearch = (e) => {
+    const searchValue = e.target.value;
+    setSearch(searchValue);
+    console.log("input search", searchValue);
+  };
+
+  const filteredApps = appData.filter((app) =>
+    app?.title?.toLowerCase().includes(search.toLowerCase()),
+  );
+  console.log(filteredApps);
+
   return (
     <div className="max-w-7xl mx-auto py-10 px-2 md:px-0">
-      <div className=" text-center">
+      <div className="text-center">
         <h1 className="text-3xl md:text-5xl font-bold">Our All Applications</h1>
         <p className="text-[#627382] inter text-xl my-6">
           Explore All Apps on the Market developed by us. We code for Millions
@@ -33,6 +48,7 @@ export default function AllApps() {
             </g>
           </svg>
           <input
+            onChange={handleSearch}
             type="search"
             className="text-[#627382]"
             required
@@ -40,11 +56,17 @@ export default function AllApps() {
           />
         </label>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-        {appData.map((app) => (
-          <AppCard key={app.id} app={app}></AppCard>
-        ))}
-      </div>
+      {filteredApps.length === 0 ? (
+        <h2 className="text-2xl md:text-4xl text-center font-semibold mt-6">
+          No App Found
+        </h2>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          {filteredApps.map((app) => (
+            <AppCard key={app.id} app={app}></AppCard>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

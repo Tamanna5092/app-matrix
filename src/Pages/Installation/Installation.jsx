@@ -6,7 +6,6 @@ import InstallApp from "../../components/InstallApp/InstallApp";
 export default function Installation() {
   const [install, setInstall] = useState([]);
   const installAppsData = useLoaderData();
-  console.log(install);
 
   useEffect(() => {
     const storedAppsData = getAppsData();
@@ -15,7 +14,7 @@ export default function Installation() {
       convertedAppsData.includes(app.id),
     );
     setInstall(appsData);
-  }, []);
+  }, [installAppsData]);
 
   return (
     <div className="max-w-7xl mx-auto py-10 px-2 md:px-0">
@@ -41,11 +40,17 @@ export default function Installation() {
           </ul>
         </details>
       </div>
-      <div>
-        {install.map((app) => (
-          <InstallApp key={app.id} app={app}></InstallApp>
-        ))}
-      </div>
+<div>
+  {install.length === 0 ? (
+    <h3 className="inter text-[#001931] text-3xln md:text-5xl text-center font-bold">
+      No apps installed
+    </h3>
+  ) : (
+    install.map((app) => (
+      <InstallApp key={app.id} app={app} />
+    ))
+  )}
+</div>
     </div>
   );
 }
